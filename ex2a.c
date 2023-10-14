@@ -1,6 +1,6 @@
-// Type your URK number and Name here 
+// Type your urk and name here
 #include <stdio.h>
-main(){
+int main(){
     int a, b, temp;
     printf("Enter two numbers sep. by space : ");
     scanf("%d%d",&a,&b);
@@ -10,7 +10,10 @@ main(){
     a=b;
     b=temp;
     printf("Numbers after swapping \n a = %d\n b = %d",a,b);
+    
     printf("\n");
-    printf("Your_URK_and_Name_here");
+    printf("Replace with your URK and name");
+    
+    return 0;
 
 }
