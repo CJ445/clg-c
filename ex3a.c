@@ -1,4 +1,4 @@
-// Type your URK number and Name here 
+// Type URK and name here
 #include <stdio.h>
 int main()
 {
@@ -14,9 +14,9 @@ int main()
     }
     printf("\n");
     printf("The Sum of odd Natural numbers upto %d terms: %d",n,sum);
-    
+
     printf("\n");
-    printf("Your_URK_and_Name_here");
+    printf("Replace with URK and name");
 
     return 0;
 }
