@@ -1,4 +1,4 @@
-// Type your URK number and Name here 
+// Type your URK and name here
 #include <stdio.h>
 int main()
 {
@@ -10,7 +10,6 @@ int main()
     printf("Sum of all even number between 1 to %d = %d", n, sum);
     
     printf("\n");
-    printf("Your_URK_and_Name_here");
-    
+    printf("Replace with your name and URK");
     return 0;
 }
