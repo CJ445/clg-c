@@ -1,4 +1,4 @@
-// Type your URK number and Name here 
+// Type your URK and name here
 #include <stdio.h>
 void main()
 {
@@ -7,10 +7,10 @@ void main()
    scanf("%d",&rows);
    for(i=1;i<=rows;i++)
    {
-	for(j=1;j<=i;j++)
-	   printf("*");
-	printf("\n");
+       for(j=1;j<=i;j++)
+           printf("*");
+       printf("\n");
    }
    printf("\n");
-   printf("Your_URK_and_Name_here");
+   printf("Replace with your URK and name");
 }
