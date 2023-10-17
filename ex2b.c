@@ -1,4 +1,3 @@
-// Type your URK number and Name here 
 #include<stdio.h>
 #include<math.h>
 int main(){
@@ -13,8 +12,5 @@ int main(){
     scanf("%f",&y2);
     dist = ((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
     printf("Distance between the said points is : %.4f",sqrt(dist));
-    printf("\n");
-    printf("Your_URK_and_Name_here");
-
     return 0;
 }
