@@ -1,4 +1,3 @@
-// Type your URK and name here
 #include <stdio.h>
 void main()
 {
@@ -11,6 +10,4 @@ void main()
            printf("*");
        printf("\n");
    }
-   printf("\n");
-   printf("Replace with your URK and name");
 }
