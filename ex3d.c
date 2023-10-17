@@ -1,4 +1,3 @@
-// Type your URK and name
 #include<stdio.h>  
 int main()  
 {  
