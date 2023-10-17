@@ -1,5 +1,4 @@
-// Type your URK number and Name here 
-#include<stdio.h>
+ #include<stdio.h>
 main(){
     char opt;
     float num1, num2;
@@ -25,7 +24,5 @@ main(){
         default:
             printf("Invalid operator passed as arguemnet");
             break;
-    printf("\n");
-    printf("Your_URK_and_Name_here");
     }
 }
