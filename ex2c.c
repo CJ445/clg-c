@@ -1,5 +1,5 @@
  #include<stdio.h>
-main(){
+int main(){
     char opt;
     float num1, num2;
     printf("Enter one of the operators (+,-,*,/) : ");
@@ -25,4 +25,6 @@ main(){
             printf("Invalid operator passed as arguemnet");
             break;
     }
+    return 0;
+ 
 }
