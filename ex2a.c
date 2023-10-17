@@ -1,4 +1,3 @@
-// Type your urk and name here
 #include <stdio.h>
 int main(){
     int a, b, temp;
@@ -10,9 +9,6 @@ int main(){
     a=b;
     b=temp;
     printf("Numbers after swapping \n a = %d\n b = %d",a,b);
-    
-    printf("\n");
-    printf("Replace with your URK and name");
     
     return 0;
 
