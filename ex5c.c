@@ -25,6 +25,7 @@ int main() {
     }
 
     printf("Modified string: %s", str);
+    printf("\n");
 
     return 0;
 }
