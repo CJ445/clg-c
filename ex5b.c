@@ -1,45 +1,33 @@
-// C implementation to check if a given
-// string is palindrome or not
 #include <stdio.h>
 #include <string.h>
- 
 
-int main()
-{
+int main() {
+    char string1[20];
+    int i, length;
+    int flag = 0;
 
-    char str[] = { "abbba" };
- 
+    // Prompt the user for input
+    printf("Enter a string: ");
+    scanf("%s", string1);
 
-    // Start from first and
+    // Calculate the string length
+    length = strlen(string1);
 
-    // last character of str
-
-    int l = 0;
-
-    int h = strlen(str) - 1;
- 
-
-    // Keep comparing characters
-
-    // while they are same
-
-    while (h > l) {
-
-        if (str[l++] != str[h--]) {
-
-            printf("%s is not a palindrome\n", str);
-
-            return 0;
-
-            // will return from here
-
+    // Compare characters from the start and end of the string
+    // and stop if a mismatch is found or the middle of the string is reached.
+    for (i = 0; i < length / 2; i++) {
+        if (string1[i] != string1[length - i - 1]) {
+            flag = 1;
+            break;
         }
-
     }
- 
 
-    printf("%s is a palindrome\n", str);
- 
+    // Output the result
+    if (flag) {
+        printf("%s is not a palindrome\n", string1);
+    } else {
+        printf("%s is a palindrome\n", string1);
+    }
 
     return 0;
 }
