@@ -9,7 +9,9 @@ float circle(int r) {
 }
 
 float triangle(float a, float b, float c) {
-  return (a + b + c) / 2 * (a - b + c - a);
+    float s = (a+b+c)/2; // Semiperimeter
+    float area = sqrt(s*(s-a)*(s-b)*(s-c));
+    return area;
 }
 
 int main() {
