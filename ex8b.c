@@ -4,7 +4,7 @@ int main()
 {
     int n,sum=0,*ptr;
     
-    printf("Enter the number of elements:");
+    printf("Enter the number of elements: ");
     scanf("%d",&n);
     ptr=&n;
     int a[*ptr];
@@ -19,15 +19,16 @@ int main()
     
     printf("The elements entered are:-\n");
     
-    for(int i=0;i<n;i++)
+    for(int j=0;j<n;j++)
     {
-        ptr=&a[i];
+        ptr=&a[j];
         printf("%d\n",*ptr);
+        sum = sum + *ptr;
     }
     
-    ptr=&sum;
     
-    printf("sum:%d",*ptr);
+    
+    printf("sum:%d\n",sum);
     
     return 0;
     
